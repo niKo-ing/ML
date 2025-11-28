@@ -1,0 +1,16 @@
+{
+  "train_csv": "data/train.csv",
+  "target_column": "mora",
+  "id_column": "customer_id",
+  "feature_columns": [
+    "age",
+    "income",
+    "credit_limit",
+    "utilization",
+    "months_on_book",
+    "late_payments_12m"
+  ],
+  "n_clusters": 8,
+  "random_state": 42,
+  "predictions_path": null
+}
