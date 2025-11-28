@@ -56,17 +56,17 @@ Notas de uso en GitHub
 - Incluye `data/train.csv` o documenta cómo generarlo/obtenerlo para reproducibilidad.
 
 Resultados (visualizaciones y archivos)
-- Curva de evaluación: `outputs/unsupervised/kmeans_nb/silhouette_vs_k.png`
-- Clusters en PCA 2D: `outputs/unsupervised/kmeans_nb/clusters_pca.png`
-- Mora sobre PCA: `outputs/unsupervised/kmeans_nb/default_pca.png`
-- Búsqueda de k: `outputs/unsupervised/kmeans_nb/k_search.csv`
-- Resumen por cluster: `outputs/unsupervised/kmeans_nb/cluster_summary.csv`
-- Asignaciones: `outputs/unsupervised/kmeans_nb/cluster_assignments.csv`
+- Curva de evaluación: `unsupervised/outputs/unsupervised/kmeans_nb/silhouette_vs_k.png`
+- Clusters en PCA 2D: `unsupervised/outputs/unsupervised/kmeans_nb/clusters_pca.png`
+- Mora sobre PCA: `unsupervised/outputs/unsupervised/kmeans_nb/default_pca.png`
+- Búsqueda de k: `unsupervised/outputs/unsupervised/kmeans_nb/k_search.csv`
+- Resumen por cluster: `unsupervised/outputs/unsupervised/kmeans_nb/cluster_summary.csv`
+- Asignaciones: `unsupervised/outputs/unsupervised/kmeans_nb/cluster_assignments.csv`
 
 Vista rápida en GitHub (si ya ejecutaste el notebook y generaste salidas):
-- ![Silhouette vs k](outputs/unsupervised/kmeans_nb/silhouette_vs_k.png)
-- ![Clusters PCA](outputs/unsupervised/kmeans_nb/clusters_pca.png)
-- ![Mora en PCA](outputs/unsupervised/kmeans_nb/default_pca.png)
+- ![Silhouette vs k](unsupervised/outputs/unsupervised/kmeans_nb/silhouette_vs_k.png)
+- ![Clusters PCA](unsupervised/outputs/unsupervised/kmeans_nb/clusters_pca.png)
+- ![Mora en PCA](unsupervised/outputs/unsupervised/kmeans_nb/default_pca.png)
 
 Notas de buenas prácticas
 - Evitar leakage: usar exclusivamente el CSV de entrenamiento para clustering y para las predicciones opcionales.
